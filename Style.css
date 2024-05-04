@@ -1,0 +1,183 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8b7979; /* Color de fondo suave */
+    color: #01544c;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50; /* Verde brillante */
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2aed54;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #1195bd;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos para el banner */
+#banner {
+    background-image: url('img/banner.jpg');
+    background-size: 200px 100px; 
+    color: #6c3598;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50; /* Verde brillante */
+    color: #00760c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4CAF50; /* Verde brillante */
+}
+
+/* Estilos para los productos */
+.product {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 20px;
+}
+
+.product p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los beneficios */
+#beneficios ul {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#beneficios ul li {
+    margin-bottom: 10px;
+}
+
+#beneficios ul li i {
+    margin-right: 10px;
+}
+
+/* Estilos para los testimonios */
+.testimonial {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    margin-bottom: 20px;
+}
+
+.testimonial cite {
+    font-style: normal;
+}
+
+/* Estilos para el compromiso con la sostenibilidad */
+#sostenibilidad ul {
+    margin-top: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4CAF50; /* Verde brillante */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-icons li a:hover {
+    color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
